@@ -10,6 +10,7 @@ namespace circus
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello circus!!!");
         }
     }
 }
