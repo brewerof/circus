@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "circus", "circus.csproj", "{16018A6B-B1C2-4045-9286-907D33694875}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "circus.model", "..\circus.model\circus.model.csproj", "{76AFC4BE-A137-4906-9E1F-5974C9B5570A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{16018A6B-B1C2-4045-9286-907D33694875}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16018A6B-B1C2-4045-9286-907D33694875}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16018A6B-B1C2-4045-9286-907D33694875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AFC4BE-A137-4906-9E1F-5974C9B5570A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AFC4BE-A137-4906-9E1F-5974C9B5570A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AFC4BE-A137-4906-9E1F-5974C9B5570A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AFC4BE-A137-4906-9E1F-5974C9B5570A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

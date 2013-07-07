@@ -1,4 +1,4 @@
-﻿namespace circus
+﻿namespace circus.model
 {
     public enum Direction
     {

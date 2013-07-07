@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace circus
+namespace circus.model
 {
     public interface IVehicle
     {
-        Guid Id { get; set; }
+        Guid Id { get; }
 
-        string Name { get; set; }
+        string Name { get; }
 
         Direction MovementDirection { get; set; }
         
