@@ -28,17 +28,17 @@ namespace circus.model
             public short Speed { get; set; }
             public void Stop()
             {
-                throw new NotImplementedException();
+                Speed = 0;
             }
 
             public void BeginMovement(short speed)
             {
-                throw new NotImplementedException();
+                Speed = speed;
             }
 
             public void ChangeMovementDirection(Direction newDirection)
             {
-                throw new NotImplementedException();
+                MovementDirection = newDirection;
             }
         }
     }
